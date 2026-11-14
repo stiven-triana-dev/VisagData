@@ -1,0 +1,76 @@
+version: 2
+models:
+  - name: stg_productos
+    description: "Catálogo real de VisagShop (108 productos)."
+    columns:
+      - name: producto_id
+        data_tests: [unique, not_null]
+      - name: precio
+        data_tests:
+          - not_null
+          - mayor_que_cero
+
+  - name: stg_clientes
+    description: "Clientes ficticios con la ciudad ya unificada."
+    columns:
+      - name: cliente_id
+        data_tests: [unique, not_null]
+      - name: ciudad
+        description: "Si falla, apareció una forma nueva de escribir una ciudad: agrégala a seeds/ciudades.csv."
+        data_tests: [not_null]
+      - name: canal_registro
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["web", "whatsapp"]
+
+  - name: stg_pedidos
+    columns:
+      - name: pedido_id
+        data_tests: [unique, not_null]
+      - name: cliente_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_clientes')
+                field: cliente_id
+      - name: estado
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["nuevo", "confirmado", "enviado", "entregado", "cancelado"]
+      - name: metodo_pago
+        description: "Unificado: llega como 'contraentrega', 'Contra entrega', 'NEQUI'..."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Contraentrega", "Nequi", "Tarjeta (enlace)"]
+      - name: tipo_venta
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["detal", "mayor"]
+
+  - name: stg_items_pedido
+    data_tests:
+      - unique_combinacion:
+          arguments:
+            columnas: ["pedido_id", "producto_id"]
+    columns:
+      - name: pedido_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_pedidos')
+                field: pedido_id
+      - name: producto_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_productos')
+                field: producto_id
+      - name: cantidad
+        data_tests: [mayor_que_cero]

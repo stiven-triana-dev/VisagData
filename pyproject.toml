@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM"]
+ignore = ["S311"]  # random se usa para datos de ejemplo, no para seguridad
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S608"]

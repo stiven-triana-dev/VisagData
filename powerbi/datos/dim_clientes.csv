@@ -1,0 +1,461 @@
+﻿cliente_id,ciudad,departamento,canal_registro,fecha_registro,primer_pedido,ultimo_pedido,pedidos,total_gastado,segmento
+C0001,Bucaramanga,Santander,web,2025-07-17,2026-08-17,2026-11-30,3,875000,Recurrente
+C0002,Lebrija,Santander,web,2026-02-13,2026-02-17,2026-11-18,32,7635000,Frecuente
+C0003,Lebrija,Santander,web,2025-10-19,,,0,0,Sin compras
+C0004,Lebrija,Santander,whatsapp,2025-02-24,2025-12-07,2026-10-13,7,2695000,Frecuente
+C0005,Girón,Santander,web,2025-06-23,2026-01-27,2026-11-14,6,1170000,Frecuente
+C0006,Medellín,Antioquia,web,2026-11-19,,,0,0,Sin compras
+C0007,Lebrija,Santander,web,2025-01-28,2025-12-01,2026-11-09,19,4670000,Frecuente
+C0008,Lebrija,Santander,whatsapp,2025-09-22,2026-07-14,2026-08-17,2,1560000,Recurrente
+C0009,Bucaramanga,Santander,web,2025-09-15,,,0,0,Sin compras
+C0010,Lebrija,Santander,whatsapp,2025-10-24,2026-04-07,2026-10-15,3,305000,Recurrente
+C0011,Medellín,Antioquia,web,2025-12-14,2026-02-26,2026-09-13,5,810000,Frecuente
+C0012,Bucaramanga,Santander,web,2025-09-29,2026-02-05,2026-11-20,6,1995000,Frecuente
+C0013,San Gil,Santander,web,2025-02-01,2025-12-11,2026-11-02,5,465000,Frecuente
+C0014,Bucaramanga,Santander,web,2024-12-18,2025-12-01,2026-11-09,6,975000,Frecuente
+C0015,Lebrija,Santander,web,2025-09-03,2026-02-07,2026-04-16,2,245000,Recurrente
+C0016,Floridablanca,Santander,whatsapp,2024-12-01,2025-12-24,2026-11-21,6,835000,Frecuente
+C0017,Lebrija,Santander,web,2025-08-11,2025-12-21,2026-11-14,4,600000,Recurrente
+C0018,Cúcuta,Norte de Santander,web,2025-08-27,2025-12-21,2026-08-18,5,2075000,Frecuente
+C0019,Bucaramanga,Santander,web,2025-06-27,2025-12-03,2026-04-27,6,460000,Frecuente
+C0020,Bucaramanga,Santander,web,2026-07-01,2026-09-28,2026-09-28,1,60000,Nuevo
+C0021,Bucaramanga,Santander,whatsapp,2025-03-06,2026-04-19,2026-11-24,11,2460000,Frecuente
+C0022,Piedecuesta,Santander,web,2026-03-29,2026-04-04,2026-11-05,8,920000,Frecuente
+C0023,Lebrija,Santander,whatsapp,2025-06-14,2025-12-17,2026-11-21,6,2245000,Frecuente
+C0024,Piedecuesta,Santander,web,2025-11-17,2025-12-20,2026-08-27,2,1310000,Recurrente
+C0025,Lebrija,Santander,web,2025-02-10,2025-12-29,2026-05-10,4,685000,Recurrente
+C0026,San Gil,Santander,web,2025-02-13,2025-12-09,2026-11-05,9,1880000,Frecuente
+C0027,San Gil,Santander,web,2025-09-24,2025-12-17,2026-11-29,5,465000,Frecuente
+C0028,Bucaramanga,Santander,whatsapp,2025-10-31,2026-06-28,2026-06-28,1,155000,Nuevo
+C0029,Lebrija,Santander,web,2025-03-16,2025-12-07,2026-09-08,8,3460000,Frecuente
+C0030,Lebrija,Santander,web,2026-02-21,2026-09-01,2026-09-01,1,130000,Nuevo
+C0031,Bucaramanga,Santander,web,2026-04-11,2026-05-14,2026-05-14,1,75000,Nuevo
+C0032,Lebrija,Santander,web,2025-09-29,2026-01-11,2026-09-06,5,765000,Frecuente
+C0033,Bucaramanga,Santander,web,2025-01-20,2025-12-13,2026-04-11,4,1015000,Recurrente
+C0034,Lebrija,Santander,whatsapp,2024-12-19,2026-11-18,2026-11-18,1,295000,Nuevo
+C0035,Bogotá,Bogotá D.C.,whatsapp,2025-07-25,2025-12-08,2026-11-17,2,135000,Recurrente
+C0036,Bucaramanga,Santander,web,2026-07-12,2026-11-11,2026-11-11,1,150000,Nuevo
+C0037,Bucaramanga,Santander,web,2026-02-01,2026-03-18,2026-07-29,6,1150000,Frecuente
+C0038,San Gil,Santander,whatsapp,2025-06-08,2026-01-17,2026-10-06,4,1895000,Recurrente
+C0039,Lebrija,Santander,web,2025-10-01,2025-12-09,2026-11-04,9,1630000,Frecuente
+C0040,Cúcuta,Norte de Santander,web,2025-04-27,2026-07-08,2026-10-31,2,255000,Recurrente
+C0041,Bucaramanga,Santander,whatsapp,2025-04-29,2026-02-03,2026-07-27,4,2255000,Recurrente
+C0042,Lebrija,Santander,web,2025-02-26,2026-05-18,2026-06-13,2,370000,Recurrente
+C0043,Lebrija,Santander,web,2025-11-19,2026-04-13,2026-11-02,6,1240000,Frecuente
+C0044,Cúcuta,Norte de Santander,whatsapp,2025-01-14,2025-12-20,2026-07-20,7,2600000,Frecuente
+C0045,San Gil,Santander,web,2025-03-12,2026-09-11,2026-10-09,3,675000,Recurrente
+C0046,Bucaramanga,Santander,web,2025-12-29,2026-04-05,2026-11-17,5,505000,Frecuente
+C0047,Cúcuta,Norte de Santander,whatsapp,2025-08-09,2026-06-29,2026-06-29,1,120000,Nuevo
+C0048,Medellín,Antioquia,web,2026-06-23,,,0,0,Sin compras
+C0049,Piedecuesta,Santander,web,2025-07-12,2026-07-25,2026-07-25,1,120000,Nuevo
+C0050,Lebrija,Santander,whatsapp,2025-01-08,2026-02-08,2026-08-30,3,375000,Recurrente
+C0051,Bogotá,Bogotá D.C.,web,2025-06-24,2026-03-12,2026-03-12,1,70000,Nuevo
+C0052,Bucaramanga,Santander,whatsapp,2025-06-02,2025-12-07,2026-11-20,27,6435000,Frecuente
+C0053,Girón,Santander,web,2026-10-24,,,0,0,Sin compras
+C0054,Floridablanca,Santander,whatsapp,2025-10-10,2025-12-17,2026-11-14,15,2900000,Frecuente
+C0055,Lebrija,Santander,web,2024-12-09,2025-12-04,2026-11-01,4,1025000,Recurrente
+C0056,Cúcuta,Norte de Santander,whatsapp,2025-03-11,2026-05-17,2026-11-21,2,440000,Recurrente
+C0057,Cúcuta,Norte de Santander,web,2025-09-19,2026-01-18,2026-09-23,4,1050000,Recurrente
+C0058,Lebrija,Santander,web,2025-01-31,,,0,0,Sin compras
+C0059,Bogotá,Bogotá D.C.,whatsapp,2025-07-07,2026-10-24,2026-10-24,1,75000,Nuevo
+C0060,Lebrija,Santander,whatsapp,2025-12-05,2026-07-29,2026-08-21,2,560000,Recurrente
+C0061,Medellín,Antioquia,web,2025-02-28,2025-12-11,2026-03-28,2,670000,Recurrente
+C0062,Bucaramanga,Santander,whatsapp,2025-10-02,2025-12-24,2026-06-11,2,180000,Recurrente
+C0063,Girón,Santander,web,2025-05-23,2025-12-01,2026-11-30,48,17900000,Frecuente
+C0064,Lebrija,Santander,web,2025-09-27,2026-06-06,2026-10-13,3,515000,Recurrente
+C0065,Bogotá,Bogotá D.C.,web,2026-06-14,2026-07-07,2026-10-23,3,925000,Recurrente
+C0066,Lebrija,Santander,whatsapp,2025-03-20,2026-06-15,2026-11-21,4,540000,Recurrente
+C0067,Girón,Santander,web,2025-02-04,2026-07-30,2026-07-30,1,45000,Nuevo
+C0068,Cúcuta,Norte de Santander,whatsapp,2026-05-09,2026-08-11,2026-11-17,2,130000,Recurrente
+C0069,Lebrija,Santander,whatsapp,2025-02-16,,,0,0,Sin compras
+C0070,Floridablanca,Santander,web,2026-06-25,2026-10-04,2026-10-04,1,75000,Nuevo
+C0071,Lebrija,Santander,whatsapp,2024-12-13,2025-12-15,2026-11-27,16,2840000,Frecuente
+C0072,Bucaramanga,Santander,web,2026-09-29,,,0,0,Sin compras
+C0073,Floridablanca,Santander,web,2025-09-26,2026-01-07,2026-11-03,4,630000,Recurrente
+C0074,Bucaramanga,Santander,web,2025-07-17,2025-12-11,2026-09-14,3,490000,Recurrente
+C0075,Lebrija,Santander,web,2025-08-03,2026-04-11,2026-10-23,5,3540000,Frecuente
+C0076,Floridablanca,Santander,web,2025-02-09,2026-01-23,2026-06-25,2,225000,Recurrente
+C0077,Bucaramanga,Santander,web,2025-06-15,2025-12-31,2025-12-31,1,170000,Nuevo
+C0078,Girón,Santander,whatsapp,2026-11-13,,,0,0,Sin compras
+C0079,Girón,Santander,whatsapp,2025-08-15,2026-06-01,2026-06-01,1,60000,Nuevo
+C0080,Lebrija,Santander,web,2025-09-03,2025-12-28,2026-11-30,6,2020000,Frecuente
+C0081,San Gil,Santander,web,2025-04-01,2025-12-22,2026-10-11,3,2350000,Recurrente
+C0082,Lebrija,Santander,web,2026-10-22,,,0,0,Sin compras
+C0083,Floridablanca,Santander,web,2026-08-21,,,0,0,Sin compras
+C0084,Girón,Santander,whatsapp,2024-12-11,2025-12-14,2026-03-20,3,495000,Recurrente
+C0085,Lebrija,Santander,whatsapp,2026-07-26,2026-08-01,2026-11-26,4,1865000,Recurrente
+C0086,Lebrija,Santander,web,2025-03-08,2026-04-12,2026-10-31,5,585000,Frecuente
+C0087,Lebrija,Santander,whatsapp,2025-04-30,2026-09-26,2026-09-26,1,850000,Nuevo
+C0088,Bogotá,Bogotá D.C.,web,2025-06-09,2026-07-22,2026-11-04,2,475000,Recurrente
+C0089,Bucaramanga,Santander,web,2025-06-16,2026-02-02,2026-11-06,4,740000,Recurrente
+C0090,Bucaramanga,Santander,whatsapp,2025-05-27,2026-06-27,2026-09-30,2,1105000,Recurrente
+C0091,Lebrija,Santander,web,2025-05-10,2026-09-17,2026-09-30,2,2055000,Recurrente
+C0092,Piedecuesta,Santander,whatsapp,2026-10-27,2026-11-24,2026-11-24,1,120000,Nuevo
+C0093,Girón,Santander,whatsapp,2026-05-02,2026-07-26,2026-11-10,3,220000,Recurrente
+C0094,Bogotá,Bogotá D.C.,web,2026-10-02,,,0,0,Sin compras
+C0095,Bucaramanga,Santander,web,2025-02-16,2026-07-08,2026-07-08,1,1635000,Nuevo
+C0096,Lebrija,Santander,web,2026-08-28,,,0,0,Sin compras
+C0097,Lebrija,Santander,web,2025-08-13,2026-03-10,2026-03-10,1,60000,Nuevo
+C0098,Bucaramanga,Santander,whatsapp,2025-03-12,2025-12-07,2025-12-07,1,70000,Nuevo
+C0099,Floridablanca,Santander,whatsapp,2024-12-18,2025-12-08,2026-10-04,12,2335000,Frecuente
+C0100,Bucaramanga,Santander,whatsapp,2026-06-19,,,0,0,Sin compras
+C0101,Lebrija,Santander,whatsapp,2024-12-05,2026-01-11,2026-07-01,3,395000,Recurrente
+C0102,Lebrija,Santander,whatsapp,2026-11-02,2026-11-24,2026-11-24,1,45000,Nuevo
+C0103,Bogotá,Bogotá D.C.,web,2025-06-30,2026-02-02,2026-11-17,3,410000,Recurrente
+C0104,Lebrija,Santander,web,2025-06-01,2025-12-31,2026-09-25,5,880000,Frecuente
+C0105,Lebrija,Santander,whatsapp,2025-09-13,2026-06-19,2026-07-19,2,310000,Recurrente
+C0106,Bogotá,Bogotá D.C.,whatsapp,2026-05-03,2026-07-21,2026-11-17,3,630000,Recurrente
+C0107,Lebrija,Santander,web,2025-05-06,2025-12-01,2026-06-16,3,1780000,Recurrente
+C0108,Bucaramanga,Santander,whatsapp,2025-11-01,2026-05-06,2026-11-22,6,1375000,Frecuente
+C0109,Girón,Santander,web,2026-05-18,,,0,0,Sin compras
+C0110,Lebrija,Santander,web,2026-07-05,2026-08-31,2026-08-31,1,380000,Nuevo
+C0111,Piedecuesta,Santander,whatsapp,2024-12-27,2026-01-02,2026-11-16,3,805000,Recurrente
+C0112,Lebrija,Santander,web,2025-04-28,2025-12-28,2026-06-02,2,130000,Recurrente
+C0113,Bucaramanga,Santander,web,2025-06-25,2025-12-25,2026-11-26,19,4375000,Frecuente
+C0114,Medellín,Antioquia,web,2025-10-15,2026-05-23,2026-07-02,2,820000,Recurrente
+C0115,Lebrija,Santander,whatsapp,2026-05-31,,,0,0,Sin compras
+C0116,Lebrija,Santander,whatsapp,2025-01-06,2026-04-28,2026-04-28,1,55000,Nuevo
+C0117,Cúcuta,Norte de Santander,whatsapp,2025-02-23,2025-12-08,2026-08-31,4,625000,Recurrente
+C0118,Bogotá,Bogotá D.C.,web,2026-04-27,,,0,0,Sin compras
+C0119,Bucaramanga,Santander,web,2025-07-14,2025-12-31,2026-09-23,10,2060000,Frecuente
+C0120,Lebrija,Santander,web,2026-09-13,2026-11-21,2026-11-21,1,180000,Nuevo
+C0121,San Gil,Santander,web,2024-12-08,2026-05-16,2026-10-29,2,225000,Recurrente
+C0122,Lebrija,Santander,web,2025-04-08,2026-07-03,2026-07-03,1,60000,Nuevo
+C0123,Piedecuesta,Santander,whatsapp,2026-01-20,2026-02-17,2026-02-17,1,60000,Nuevo
+C0124,Lebrija,Santander,web,2025-11-09,2026-01-19,2026-08-24,2,365000,Recurrente
+C0125,Bucaramanga,Santander,whatsapp,2025-02-09,2025-12-06,2026-11-26,11,1295000,Frecuente
+C0126,San Gil,Santander,web,2025-06-20,,,0,0,Sin compras
+C0127,Lebrija,Santander,whatsapp,2025-12-10,2026-01-19,2026-11-10,7,1295000,Frecuente
+C0128,Lebrija,Santander,whatsapp,2025-09-30,2026-05-14,2026-11-28,2,340000,Recurrente
+C0129,Bucaramanga,Santander,whatsapp,2025-04-03,2026-02-20,2026-11-28,5,3360000,Frecuente
+C0130,Girón,Santander,web,2025-03-12,2025-12-24,2026-05-29,3,240000,Recurrente
+C0131,Lebrija,Santander,whatsapp,2025-08-28,2026-04-07,2026-04-20,2,1140000,Recurrente
+C0132,San Gil,Santander,web,2025-03-28,2025-12-23,2026-10-12,4,500000,Recurrente
+C0133,Lebrija,Santander,web,2026-08-29,2026-09-01,2026-11-08,7,1985000,Frecuente
+C0134,Lebrija,Santander,whatsapp,2025-07-17,2026-08-24,2026-11-23,2,1570000,Recurrente
+C0135,San Gil,Santander,web,2025-03-09,2026-01-11,2026-10-25,2,3270000,Recurrente
+C0136,Piedecuesta,Santander,web,2025-02-20,2026-06-12,2026-11-22,3,620000,Recurrente
+C0137,Bucaramanga,Santander,web,2025-10-07,,,0,0,Sin compras
+C0138,Cúcuta,Norte de Santander,whatsapp,2025-11-04,2026-01-24,2026-01-24,1,70000,Nuevo
+C0139,Bucaramanga,Santander,whatsapp,2026-01-13,2026-02-13,2026-09-14,2,265000,Recurrente
+C0140,Lebrija,Santander,web,2026-10-20,,,0,0,Sin compras
+C0141,Bogotá,Bogotá D.C.,whatsapp,2025-11-12,2026-05-10,2026-06-07,2,405000,Recurrente
+C0142,Cúcuta,Norte de Santander,web,2025-03-12,2025-12-13,2026-11-22,44,9915000,Frecuente
+C0143,Medellín,Antioquia,whatsapp,2026-03-08,,,0,0,Sin compras
+C0144,Lebrija,Santander,web,2025-01-01,2026-04-15,2026-10-25,3,340000,Recurrente
+C0145,San Gil,Santander,web,2025-07-21,2026-06-06,2026-08-20,2,160000,Recurrente
+C0146,Bucaramanga,Santander,web,2025-03-22,2025-12-04,2026-09-25,5,955000,Frecuente
+C0147,Lebrija,Santander,web,2025-10-17,2026-05-10,2026-11-15,5,395000,Frecuente
+C0148,San Gil,Santander,web,2025-01-16,2026-04-23,2026-11-30,4,680000,Recurrente
+C0149,Lebrija,Santander,whatsapp,2026-06-23,2026-10-30,2026-11-10,4,425000,Recurrente
+C0150,Lebrija,Santander,whatsapp,2025-06-07,2025-12-07,2026-07-14,5,555000,Frecuente
+C0151,San Gil,Santander,web,2025-07-29,2026-05-02,2026-08-29,4,420000,Recurrente
+C0152,Girón,Santander,web,2025-06-18,2026-05-19,2026-10-03,4,265000,Recurrente
+C0153,Piedecuesta,Santander,web,2024-12-08,2025-12-19,2026-11-01,2,920000,Recurrente
+C0154,Bucaramanga,Santander,web,2025-03-13,2026-04-23,2026-09-25,2,205000,Recurrente
+C0155,Girón,Santander,whatsapp,2025-07-24,2026-09-13,2026-11-28,3,545000,Recurrente
+C0156,Medellín,Antioquia,web,2025-02-08,2026-03-04,2026-03-04,1,75000,Nuevo
+C0157,Bucaramanga,Santander,whatsapp,2025-11-16,,,0,0,Sin compras
+C0158,Floridablanca,Santander,whatsapp,2025-07-29,2026-03-12,2026-10-08,5,805000,Frecuente
+C0159,Floridablanca,Santander,whatsapp,2025-03-18,2026-02-27,2026-11-19,15,1930000,Frecuente
+C0160,Bucaramanga,Santander,web,2025-11-28,2025-12-22,2026-05-08,2,235000,Recurrente
+C0161,Bucaramanga,Santander,whatsapp,2025-04-17,2026-01-16,2026-06-02,4,740000,Recurrente
+C0162,Bucaramanga,Santander,web,2025-04-17,2025-12-20,2026-10-21,7,2515000,Frecuente
+C0163,Piedecuesta,Santander,whatsapp,2025-10-27,2025-12-25,2026-11-06,8,1580000,Frecuente
+C0164,Cúcuta,Norte de Santander,whatsapp,2025-04-17,2026-09-11,2026-09-11,1,165000,Nuevo
+C0165,Lebrija,Santander,whatsapp,2026-06-29,2026-08-03,2026-11-19,4,870000,Recurrente
+C0166,Piedecuesta,Santander,web,2025-02-23,2025-12-13,2026-07-20,3,735000,Recurrente
+C0167,Lebrija,Santander,whatsapp,2024-12-01,2025-12-16,2026-11-26,25,5695000,Frecuente
+C0168,Lebrija,Santander,web,2025-06-17,2025-12-20,2026-11-13,4,1540000,Recurrente
+C0169,Lebrija,Santander,whatsapp,2025-03-01,2026-01-08,2026-10-27,5,3095000,Frecuente
+C0170,Bucaramanga,Santander,web,2025-05-21,2026-02-08,2026-07-12,2,150000,Recurrente
+C0171,Medellín,Antioquia,whatsapp,2025-03-15,2026-04-12,2026-09-19,3,480000,Recurrente
+C0172,Piedecuesta,Santander,whatsapp,2025-04-24,2025-12-29,2026-11-27,7,1090000,Frecuente
+C0173,Lebrija,Santander,web,2026-10-22,2026-11-27,2026-11-28,2,225000,Recurrente
+C0174,Bucaramanga,Santander,web,2025-01-29,2026-01-03,2026-11-11,8,3425000,Frecuente
+C0175,Piedecuesta,Santander,whatsapp,2024-12-12,2026-05-08,2026-05-08,1,60000,Nuevo
+C0176,Bucaramanga,Santander,whatsapp,2026-08-19,,,0,0,Sin compras
+C0177,Cúcuta,Norte de Santander,web,2025-06-04,2026-07-04,2026-10-25,3,3330000,Recurrente
+C0178,Lebrija,Santander,whatsapp,2025-05-16,2026-08-04,2026-08-04,1,1600000,Nuevo
+C0179,Bogotá,Bogotá D.C.,web,2026-09-13,2026-11-27,2026-11-27,1,75000,Nuevo
+C0180,Floridablanca,Santander,web,2026-01-24,2026-08-29,2026-08-29,1,130000,Nuevo
+C0181,Lebrija,Santander,web,2025-04-02,2025-12-10,2026-02-20,2,205000,Recurrente
+C0182,Bucaramanga,Santander,web,2025-02-24,2026-01-10,2026-09-27,2,205000,Recurrente
+C0183,Bucaramanga,Santander,whatsapp,2025-06-06,2025-12-17,2026-10-26,8,675000,Frecuente
+C0184,San Gil,Santander,web,2025-06-19,2026-05-12,2026-09-19,3,265000,Recurrente
+C0185,Bogotá,Bogotá D.C.,web,2026-11-03,2026-11-16,2026-11-16,1,75000,Nuevo
+C0186,Girón,Santander,web,2026-03-08,2026-04-17,2026-10-16,6,1470000,Frecuente
+C0187,Bucaramanga,Santander,web,2025-09-28,2026-02-08,2026-02-08,1,55000,Nuevo
+C0188,Bucaramanga,Santander,web,2026-01-20,2026-05-10,2026-07-11,2,260000,Recurrente
+C0189,Barranquilla,Atlántico,web,2026-02-06,2026-03-17,2026-03-17,1,75000,Nuevo
+C0190,Girón,Santander,web,2025-10-29,2025-12-06,2026-11-08,7,760000,Frecuente
+C0191,Bucaramanga,Santander,web,2025-12-25,2026-06-26,2026-07-22,2,225000,Recurrente
+C0192,Lebrija,Santander,web,2026-08-26,,,0,0,Sin compras
+C0193,Lebrija,Santander,web,2026-10-05,,,0,0,Sin compras
+C0194,Floridablanca,Santander,whatsapp,2025-10-09,2026-02-10,2026-02-10,1,140000,Nuevo
+C0195,Bucaramanga,Santander,web,2026-06-29,,,0,0,Sin compras
+C0196,Floridablanca,Santander,whatsapp,2025-04-26,,,0,0,Sin compras
+C0197,Bogotá,Bogotá D.C.,web,2025-01-25,2026-06-21,2026-06-21,1,75000,Nuevo
+C0198,Lebrija,Santander,web,2025-07-25,2026-06-09,2026-10-31,3,380000,Recurrente
+C0199,Floridablanca,Santander,whatsapp,2026-03-17,,,0,0,Sin compras
+C0200,Floridablanca,Santander,web,2025-09-08,2026-01-18,2026-09-10,10,1405000,Frecuente
+C0201,Bucaramanga,Santander,web,2026-05-09,2026-07-21,2026-08-10,2,355000,Recurrente
+C0202,Bogotá,Bogotá D.C.,whatsapp,2025-06-11,2026-03-14,2026-03-14,1,70000,Nuevo
+C0203,Cúcuta,Norte de Santander,web,2025-06-11,2025-12-13,2026-11-16,6,760000,Frecuente
+C0204,Bucaramanga,Santander,whatsapp,2025-10-07,2025-12-31,2026-11-21,12,5130000,Frecuente
+C0205,Barranquilla,Atlántico,web,2026-07-20,2026-09-05,2026-09-27,2,265000,Recurrente
+C0206,San Gil,Santander,web,2025-06-01,,,0,0,Sin compras
+C0207,Lebrija,Santander,web,2025-05-30,2026-06-07,2026-06-07,1,130000,Nuevo
+C0208,Lebrija,Santander,whatsapp,2026-09-03,2026-09-20,2026-11-25,2,1280000,Recurrente
+C0209,Lebrija,Santander,whatsapp,2025-07-20,2025-12-19,2026-09-20,2,320000,Recurrente
+C0210,Cúcuta,Norte de Santander,web,2025-08-17,2025-12-13,2026-11-26,3,590000,Recurrente
+C0211,Lebrija,Santander,web,2025-01-18,2026-02-16,2026-02-16,1,280000,Nuevo
+C0212,San Gil,Santander,web,2025-01-18,2025-12-18,2026-08-13,3,545000,Recurrente
+C0213,Bucaramanga,Santander,whatsapp,2025-10-27,2025-12-25,2025-12-29,2,145000,Recurrente
+C0214,Lebrija,Santander,whatsapp,2025-05-16,2026-02-10,2026-09-07,2,230000,Recurrente
+C0215,San Gil,Santander,web,2025-07-07,2026-04-18,2026-10-22,4,355000,Recurrente
+C0216,Girón,Santander,web,2026-03-08,2026-09-22,2026-11-25,3,910000,Recurrente
+C0217,Lebrija,Santander,whatsapp,2025-03-01,2026-06-27,2026-09-01,3,250000,Recurrente
+C0218,Lebrija,Santander,web,2026-06-30,2026-10-01,2026-10-01,1,60000,Nuevo
+C0219,Girón,Santander,web,2026-04-27,2026-10-21,2026-10-21,1,225000,Nuevo
+C0220,Lebrija,Santander,web,2025-04-08,2026-02-08,2026-10-27,10,1315000,Frecuente
+C0221,Bucaramanga,Santander,whatsapp,2026-11-19,,,0,0,Sin compras
+C0222,Lebrija,Santander,web,2025-05-30,2026-01-13,2026-09-25,2,1660000,Recurrente
+C0223,Barranquilla,Atlántico,web,2024-12-22,2026-05-07,2026-05-07,1,45000,Nuevo
+C0224,San Gil,Santander,whatsapp,2025-07-22,,,0,0,Sin compras
+C0225,Lebrija,Santander,whatsapp,2025-02-18,2026-06-10,2026-10-19,6,1220000,Frecuente
+C0226,Lebrija,Santander,web,2025-02-21,2025-12-21,2026-09-04,14,2450000,Frecuente
+C0227,Lebrija,Santander,whatsapp,2025-05-29,2025-12-01,2026-10-03,5,990000,Frecuente
+C0228,Bucaramanga,Santander,whatsapp,2026-10-01,2026-10-18,2026-11-15,3,260000,Recurrente
+C0229,Piedecuesta,Santander,web,2025-02-19,2026-08-04,2026-10-26,3,995000,Recurrente
+C0230,Medellín,Antioquia,web,2026-07-31,,,0,0,Sin compras
+C0231,Bucaramanga,Santander,whatsapp,2025-05-13,2025-12-06,2026-11-22,6,860000,Frecuente
+C0232,Floridablanca,Santander,web,2025-09-28,2025-12-01,2026-11-08,8,1490000,Frecuente
+C0233,Girón,Santander,web,2025-03-30,2026-01-08,2026-08-27,3,325000,Recurrente
+C0234,Cúcuta,Norte de Santander,web,2025-12-25,2026-05-01,2026-06-02,2,200000,Recurrente
+C0235,Bucaramanga,Santander,web,2026-10-31,,,0,0,Sin compras
+C0236,Barranquilla,Atlántico,whatsapp,2025-01-14,2026-04-03,2026-11-12,4,410000,Recurrente
+C0237,Lebrija,Santander,whatsapp,2025-03-09,2025-12-07,2026-07-04,3,450000,Recurrente
+C0238,San Gil,Santander,whatsapp,2025-11-09,2026-03-03,2026-06-10,4,6445000,Recurrente
+C0239,Floridablanca,Santander,whatsapp,2026-08-08,,,0,0,Sin compras
+C0240,Lebrija,Santander,web,2025-05-29,2025-12-17,2026-11-14,7,2405000,Frecuente
+C0241,Bucaramanga,Santander,web,2026-09-02,,,0,0,Sin compras
+C0242,Girón,Santander,whatsapp,2025-12-11,2026-04-14,2026-04-27,2,215000,Recurrente
+C0243,Lebrija,Santander,web,2025-04-03,2026-01-14,2026-01-14,1,270000,Nuevo
+C0244,Floridablanca,Santander,whatsapp,2025-06-01,2025-12-21,2026-09-26,5,735000,Frecuente
+C0245,Lebrija,Santander,web,2025-08-07,2025-12-05,2026-11-01,7,1835000,Frecuente
+C0246,Lebrija,Santander,web,2025-12-05,2026-03-02,2026-11-03,10,1055000,Frecuente
+C0247,Bucaramanga,Santander,whatsapp,2026-10-26,2026-10-31,2026-11-27,5,625000,Frecuente
+C0248,Bucaramanga,Santander,whatsapp,2025-04-24,2026-01-09,2026-11-13,15,4910000,Frecuente
+C0249,San Gil,Santander,web,2025-05-11,2025-12-12,2026-09-18,3,525000,Recurrente
+C0250,Lebrija,Santander,whatsapp,2025-01-29,2026-04-11,2026-08-22,4,520000,Recurrente
+C0251,Bucaramanga,Santander,whatsapp,2026-04-02,2026-10-11,2026-10-11,1,75000,Nuevo
+C0252,Bogotá,Bogotá D.C.,whatsapp,2025-10-16,2026-01-04,2026-11-05,3,320000,Recurrente
+C0253,Lebrija,Santander,web,2025-08-10,2026-01-07,2026-11-26,10,1875000,Frecuente
+C0254,Bucaramanga,Santander,whatsapp,2025-04-12,2025-12-01,2026-11-20,5,1345000,Frecuente
+C0255,Floridablanca,Santander,web,2026-11-21,,,0,0,Sin compras
+C0256,Lebrija,Santander,whatsapp,2026-07-26,,,0,0,Sin compras
+C0257,Floridablanca,Santander,web,2026-08-19,,,0,0,Sin compras
+C0258,Bucaramanga,Santander,web,2024-12-08,2026-03-03,2026-05-26,2,265000,Recurrente
+C0259,Lebrija,Santander,whatsapp,2026-04-06,2026-09-02,2026-09-02,1,145000,Nuevo
+C0260,Bogotá,Bogotá D.C.,web,2026-04-15,,,0,0,Sin compras
+C0261,Girón,Santander,whatsapp,2026-09-16,,,0,0,Sin compras
+C0262,Lebrija,Santander,web,2026-01-08,2026-01-17,2026-10-11,3,335000,Recurrente
+C0263,Piedecuesta,Santander,web,2025-08-31,2026-04-11,2026-10-14,3,220000,Recurrente
+C0264,Lebrija,Santander,whatsapp,2025-02-17,2026-01-19,2026-11-25,12,3895000,Frecuente
+C0265,Lebrija,Santander,web,2025-11-22,2026-03-08,2026-11-02,2,280000,Recurrente
+C0266,Bucaramanga,Santander,whatsapp,2025-11-20,2025-12-15,2026-09-26,16,3185000,Frecuente
+C0267,San Gil,Santander,web,2025-11-04,2025-12-04,2026-10-27,4,1295000,Recurrente
+C0268,Cúcuta,Norte de Santander,web,2025-04-13,2026-06-25,2026-10-04,2,120000,Recurrente
+C0269,Barranquilla,Atlántico,web,2024-12-10,2026-01-03,2026-09-03,3,520000,Recurrente
+C0270,Floridablanca,Santander,web,2026-11-29,,,0,0,Sin compras
+C0271,Lebrija,Santander,web,2025-05-09,2026-05-24,2026-10-25,5,1815000,Frecuente
+C0272,Lebrija,Santander,web,2025-07-30,2025-12-12,2026-07-15,4,780000,Recurrente
+C0273,Bucaramanga,Santander,web,2025-11-29,2026-05-22,2026-05-22,1,125000,Nuevo
+C0274,Bucaramanga,Santander,web,2026-01-14,2026-02-06,2026-08-23,3,405000,Recurrente
+C0275,Bucaramanga,Santander,web,2025-02-01,2025-12-19,2026-11-24,5,3365000,Frecuente
+C0276,Barranquilla,Atlántico,web,2025-11-09,2026-02-26,2026-08-09,3,510000,Recurrente
+C0277,Lebrija,Santander,web,2025-01-26,2026-01-31,2026-11-20,10,5625000,Frecuente
+C0278,Lebrija,Santander,web,2025-03-20,2026-03-14,2026-03-14,1,260000,Nuevo
+C0279,Floridablanca,Santander,whatsapp,2025-01-30,2026-07-26,2026-07-26,1,45000,Nuevo
+C0280,Lebrija,Santander,whatsapp,2026-03-08,2026-04-23,2026-11-29,5,830000,Frecuente
+C0281,Barranquilla,Atlántico,web,2025-10-10,2025-12-03,2026-11-29,28,4565000,Frecuente
+C0282,Lebrija,Santander,whatsapp,2025-09-30,2025-12-14,2026-11-19,6,910000,Frecuente
+C0283,Barranquilla,Atlántico,web,2026-11-06,2026-11-11,2026-11-11,1,130000,Nuevo
+C0284,Piedecuesta,Santander,whatsapp,2025-02-25,2025-12-29,2026-07-25,3,865000,Recurrente
+C0285,Lebrija,Santander,web,2025-08-05,2025-12-07,2026-10-30,12,1750000,Frecuente
+C0286,Bucaramanga,Santander,web,2026-08-23,,,0,0,Sin compras
+C0287,Lebrija,Santander,web,2025-10-15,,,0,0,Sin compras
+C0288,Barranquilla,Atlántico,whatsapp,2024-12-17,2026-02-03,2026-11-09,8,1320000,Frecuente
+C0289,Bucaramanga,Santander,web,2025-05-06,2025-12-12,2026-09-19,11,2340000,Frecuente
+C0290,Piedecuesta,Santander,whatsapp,2024-12-28,2026-02-20,2026-09-25,5,700000,Frecuente
+C0291,Piedecuesta,Santander,whatsapp,2025-03-05,2025-12-18,2026-07-30,7,1010000,Frecuente
+C0292,Floridablanca,Santander,web,2025-06-25,2025-12-15,2026-11-06,13,2655000,Frecuente
+C0293,Lebrija,Santander,web,2026-02-08,2026-06-24,2026-06-24,1,75000,Nuevo
+C0294,Medellín,Antioquia,whatsapp,2025-11-18,2025-12-19,2026-11-01,3,1555000,Recurrente
+C0295,San Gil,Santander,whatsapp,2025-11-08,2026-05-06,2026-06-01,2,275000,Recurrente
+C0296,Girón,Santander,web,2025-03-09,2025-12-09,2026-11-15,7,1210000,Frecuente
+C0297,Lebrija,Santander,web,2025-09-30,2026-01-06,2026-06-10,2,895000,Recurrente
+C0298,Piedecuesta,Santander,web,2025-01-14,2025-12-25,2026-11-04,19,4510000,Frecuente
+C0299,Bogotá,Bogotá D.C.,web,2025-05-28,2026-10-22,2026-10-22,1,130000,Nuevo
+C0300,Medellín,Antioquia,whatsapp,2026-07-29,2026-08-09,2026-11-23,3,900000,Recurrente
+C0301,Lebrija,Santander,web,2024-12-10,2026-06-13,2026-10-18,2,390000,Recurrente
+C0302,Bogotá,Bogotá D.C.,web,2025-10-06,2026-03-01,2026-11-28,6,415000,Frecuente
+C0303,Bucaramanga,Santander,web,2025-11-09,2025-12-04,2026-10-21,4,1500000,Recurrente
+C0304,Bucaramanga,Santander,whatsapp,2026-09-23,2026-11-15,2026-11-15,1,70000,Nuevo
+C0305,Lebrija,Santander,web,2025-03-24,2026-04-18,2026-11-26,6,625000,Frecuente
+C0306,Bucaramanga,Santander,web,2025-10-28,2026-03-22,2026-11-17,8,1830000,Frecuente
+C0307,Lebrija,Santander,whatsapp,2025-12-28,2026-11-07,2026-11-07,1,75000,Nuevo
+C0308,Floridablanca,Santander,web,2026-07-31,2026-08-07,2026-11-24,13,2020000,Frecuente
+C0309,Girón,Santander,web,2025-07-15,2026-02-16,2026-11-16,8,2405000,Frecuente
+C0310,Bucaramanga,Santander,whatsapp,2025-01-30,2026-01-26,2026-10-11,3,365000,Recurrente
+C0311,Barranquilla,Atlántico,web,2025-10-08,2025-12-21,2026-11-16,13,4030000,Frecuente
+C0312,Lebrija,Santander,web,2025-11-09,2026-06-23,2026-06-23,1,55000,Nuevo
+C0313,Bucaramanga,Santander,web,2025-06-02,2026-06-19,2026-09-16,4,385000,Recurrente
+C0314,Cúcuta,Norte de Santander,web,2025-07-14,2026-01-18,2026-10-08,7,800000,Frecuente
+C0315,Girón,Santander,web,2026-08-19,2026-08-25,2026-09-08,2,390000,Recurrente
+C0316,San Gil,Santander,whatsapp,2026-02-07,2026-03-01,2026-11-28,9,2230000,Frecuente
+C0317,Bucaramanga,Santander,web,2025-08-06,2025-12-10,2026-11-04,6,1050000,Frecuente
+C0318,Lebrija,Santander,whatsapp,2026-03-05,2026-04-12,2026-11-29,23,2830000,Frecuente
+C0319,Piedecuesta,Santander,web,2026-11-20,,,0,0,Sin compras
+C0320,Bucaramanga,Santander,web,2026-08-30,2026-09-08,2026-09-08,1,75000,Nuevo
+C0321,Lebrija,Santander,web,2025-06-27,2026-03-17,2026-11-09,5,1485000,Frecuente
+C0322,Bucaramanga,Santander,web,2025-07-07,2025-12-14,2026-07-07,5,1070000,Frecuente
+C0323,Floridablanca,Santander,whatsapp,2025-10-25,2026-06-06,2026-10-13,2,290000,Recurrente
+C0324,Lebrija,Santander,web,2026-10-18,2026-11-26,2026-11-26,1,75000,Nuevo
+C0325,Floridablanca,Santander,web,2025-05-09,2026-05-16,2026-11-05,9,1055000,Frecuente
+C0326,Piedecuesta,Santander,web,2026-07-28,2026-09-26,2026-11-15,2,615000,Recurrente
+C0327,San Gil,Santander,web,2025-11-04,2025-12-27,2026-11-13,7,540000,Frecuente
+C0328,Lebrija,Santander,web,2025-04-12,2026-06-01,2026-09-21,2,355000,Recurrente
+C0329,Bucaramanga,Santander,whatsapp,2025-08-06,2026-04-18,2026-10-06,3,430000,Recurrente
+C0330,Piedecuesta,Santander,web,2025-05-15,2026-01-22,2026-06-08,4,765000,Recurrente
+C0331,Bucaramanga,Santander,whatsapp,2025-01-15,2026-05-21,2026-11-25,2,195000,Recurrente
+C0332,Lebrija,Santander,whatsapp,2025-01-28,2026-05-02,2026-08-17,2,400000,Recurrente
+C0333,Bogotá,Bogotá D.C.,web,2025-11-17,2025-12-01,2026-10-29,10,1080000,Frecuente
+C0334,Piedecuesta,Santander,web,2026-07-04,2026-07-14,2026-07-14,1,440000,Nuevo
+C0335,Girón,Santander,web,2025-06-10,2026-01-07,2026-05-09,2,225000,Recurrente
+C0336,Bucaramanga,Santander,web,2025-06-29,2025-12-18,2026-07-18,5,840000,Frecuente
+C0337,Bucaramanga,Santander,web,2025-07-26,2026-03-27,2026-03-27,1,215000,Nuevo
+C0338,Lebrija,Santander,web,2025-03-03,2026-03-18,2026-05-12,2,480000,Recurrente
+C0339,Bucaramanga,Santander,web,2026-10-12,,,0,0,Sin compras
+C0340,Lebrija,Santander,web,2025-01-28,2026-02-07,2026-10-23,5,3210000,Frecuente
+C0341,Lebrija,Santander,web,2025-03-15,2025-12-04,2026-11-27,42,7310000,Frecuente
+C0342,Lebrija,Santander,whatsapp,2025-10-17,2026-02-10,2026-11-02,3,540000,Recurrente
+C0343,Cúcuta,Norte de Santander,web,2025-01-18,2025-12-24,2026-01-31,2,115000,Recurrente
+C0344,Barranquilla,Atlántico,whatsapp,2025-11-04,2026-04-04,2026-04-04,1,360000,Nuevo
+C0345,Floridablanca,Santander,whatsapp,2026-04-21,,,0,0,Sin compras
+C0346,Lebrija,Santander,whatsapp,2026-07-13,2026-10-09,2026-10-09,1,120000,Nuevo
+C0347,Bucaramanga,Santander,whatsapp,2025-01-13,2025-12-02,2026-11-24,13,1600000,Frecuente
+C0348,Bogotá,Bogotá D.C.,whatsapp,2025-09-10,2025-12-03,2026-06-14,3,400000,Recurrente
+C0349,Piedecuesta,Santander,web,2025-07-05,2025-12-19,2026-11-20,15,3815000,Frecuente
+C0350,Girón,Santander,web,2024-12-29,2026-02-23,2026-11-29,4,500000,Recurrente
+C0351,Bucaramanga,Santander,web,2025-03-03,2026-02-06,2026-11-29,2,115000,Recurrente
+C0352,Piedecuesta,Santander,web,2025-10-24,2026-06-20,2026-11-25,2,305000,Recurrente
+C0353,Bucaramanga,Santander,web,2025-05-01,2026-10-01,2026-11-17,2,1345000,Recurrente
+C0354,Bogotá,Bogotá D.C.,whatsapp,2025-10-16,2025-12-05,2026-11-15,29,8185000,Frecuente
+C0355,Lebrija,Santander,web,2026-04-19,2026-08-17,2026-08-17,1,195000,Nuevo
+C0356,Bucaramanga,Santander,whatsapp,2024-12-22,2026-04-30,2026-10-28,2,120000,Recurrente
+C0357,Bucaramanga,Santander,web,2025-11-02,2025-12-21,2026-07-31,5,505000,Frecuente
+C0358,Bucaramanga,Santander,web,2025-02-12,2025-12-15,2026-01-07,3,245000,Recurrente
+C0359,Bucaramanga,Santander,web,2025-07-02,2026-01-06,2026-09-24,3,505000,Recurrente
+C0360,Piedecuesta,Santander,web,2026-04-12,,,0,0,Sin compras
+C0361,Barranquilla,Atlántico,web,2025-07-04,2026-11-19,2026-11-19,1,155000,Nuevo
+C0362,Cúcuta,Norte de Santander,web,2025-11-14,,,0,0,Sin compras
+C0363,Cúcuta,Norte de Santander,whatsapp,2026-08-30,2026-09-24,2026-11-04,2,265000,Recurrente
+C0364,Bogotá,Bogotá D.C.,web,2025-01-11,2026-08-15,2026-11-19,2,425000,Recurrente
+C0365,Lebrija,Santander,web,2025-10-02,2026-06-27,2026-10-06,2,155000,Recurrente
+C0366,Piedecuesta,Santander,web,2025-05-24,2026-02-06,2026-09-11,2,290000,Recurrente
+C0367,Lebrija,Santander,web,2025-02-20,2026-06-15,2026-09-05,4,1450000,Recurrente
+C0368,Bucaramanga,Santander,whatsapp,2026-01-06,2026-06-27,2026-06-27,1,85000,Nuevo
+C0369,Floridablanca,Santander,web,2026-07-04,2026-11-23,2026-11-23,1,140000,Nuevo
+C0370,Barranquilla,Atlántico,web,2025-10-03,2025-12-10,2026-11-17,4,610000,Recurrente
+C0371,Cúcuta,Norte de Santander,web,2026-11-30,2026-11-30,2026-11-30,1,70000,Nuevo
+C0372,Lebrija,Santander,whatsapp,2025-05-27,2025-12-02,2026-11-21,9,2750000,Frecuente
+C0373,Bucaramanga,Santander,web,2025-01-18,2026-09-21,2026-09-21,1,55000,Nuevo
+C0374,Lebrija,Santander,whatsapp,2025-06-04,2025-12-11,2026-08-19,4,350000,Recurrente
+C0375,Lebrija,Santander,whatsapp,2025-09-07,2026-01-25,2026-06-27,4,535000,Recurrente
+C0376,San Gil,Santander,whatsapp,2025-10-31,2025-12-23,2026-11-14,12,1595000,Frecuente
+C0377,Lebrija,Santander,whatsapp,2025-06-30,2026-04-12,2026-04-12,1,225000,Nuevo
+C0378,Lebrija,Santander,web,2025-02-14,2025-12-27,2026-11-30,4,425000,Recurrente
+C0379,Bogotá,Bogotá D.C.,whatsapp,2025-03-07,,,0,0,Sin compras
+C0380,Lebrija,Santander,web,2025-07-18,2025-12-21,2026-03-15,2,150000,Recurrente
+C0381,Bucaramanga,Santander,whatsapp,2025-01-24,2025-12-21,2026-09-27,6,1185000,Frecuente
+C0382,Bucaramanga,Santander,whatsapp,2025-06-02,2025-12-29,2025-12-29,1,95000,Nuevo
+C0383,Floridablanca,Santander,web,2026-03-03,2026-03-03,2026-09-20,5,835000,Frecuente
+C0384,Bucaramanga,Santander,whatsapp,2026-01-08,2026-11-25,2026-11-25,1,360000,Nuevo
+C0385,Bucaramanga,Santander,web,2025-11-16,2025-12-14,2026-11-01,12,1405000,Frecuente
+C0386,Lebrija,Santander,web,2025-05-29,2025-12-10,2026-11-15,4,525000,Recurrente
+C0387,Girón,Santander,whatsapp,2025-02-27,2026-05-04,2026-11-09,3,565000,Recurrente
+C0388,Girón,Santander,whatsapp,2025-04-06,2026-07-30,2026-07-30,1,140000,Nuevo
+C0389,Medellín,Antioquia,web,2025-11-16,2025-12-28,2026-10-27,5,1690000,Frecuente
+C0390,Bucaramanga,Santander,web,2025-02-19,2025-12-06,2026-11-25,4,255000,Recurrente
+C0391,San Gil,Santander,whatsapp,2025-06-26,2025-12-06,2026-11-30,25,4185000,Frecuente
+C0392,Lebrija,Santander,web,2025-10-27,2025-12-12,2026-11-26,10,1290000,Frecuente
+C0393,Barranquilla,Atlántico,whatsapp,2025-04-26,2025-12-28,2026-10-01,3,630000,Recurrente
+C0394,Bucaramanga,Santander,web,2026-01-23,2026-03-08,2026-04-04,2,265000,Recurrente
+C0395,San Gil,Santander,whatsapp,2026-06-03,,,0,0,Sin compras
+C0396,Barranquilla,Atlántico,whatsapp,2025-10-31,2026-08-06,2026-09-01,2,325000,Recurrente
+C0397,Medellín,Antioquia,whatsapp,2025-04-20,,,0,0,Sin compras
+C0398,Lebrija,Santander,web,2024-12-08,2026-07-05,2026-07-05,1,70000,Nuevo
+C0399,Lebrija,Santander,web,2025-11-24,,,0,0,Sin compras
+C0400,Lebrija,Santander,whatsapp,2026-09-10,2026-09-30,2026-09-30,1,160000,Nuevo
+C0401,Bogotá,Bogotá D.C.,web,2025-01-20,2026-01-30,2026-01-30,1,60000,Nuevo
+C0402,Lebrija,Santander,web,2025-03-11,2025-12-02,2026-11-12,5,800000,Frecuente
+C0403,San Gil,Santander,web,2025-05-08,2025-12-30,2026-11-27,4,505000,Recurrente
+C0404,San Gil,Santander,web,2025-01-03,,,0,0,Sin compras
+C0405,Bucaramanga,Santander,whatsapp,2025-05-24,2026-03-30,2026-05-06,2,110000,Recurrente
+C0406,Girón,Santander,whatsapp,2024-12-25,2025-12-03,2026-11-15,18,2600000,Frecuente
+C0407,Floridablanca,Santander,web,2025-03-25,2026-03-21,2026-11-15,2,395000,Recurrente
+C0408,San Gil,Santander,whatsapp,2025-06-10,2026-02-11,2026-06-06,4,570000,Recurrente
+C0409,Lebrija,Santander,web,2025-03-10,2026-01-30,2026-11-10,2,135000,Recurrente
+C0410,Lebrija,Santander,web,2026-03-13,2026-08-05,2026-08-18,2,400000,Recurrente
+C0411,Piedecuesta,Santander,web,2025-10-25,2026-01-31,2026-10-09,3,705000,Recurrente
+C0412,Bucaramanga,Santander,web,2026-10-12,2026-11-16,2026-11-16,1,225000,Nuevo
+C0413,Lebrija,Santander,web,2025-04-01,2026-08-23,2026-11-13,2,225000,Recurrente
+C0414,Cúcuta,Norte de Santander,web,2026-11-21,,,0,0,Sin compras
+C0415,Lebrija,Santander,web,2025-05-17,2026-09-03,2026-09-03,1,240000,Nuevo
+C0416,Bogotá,Bogotá D.C.,web,2025-03-04,2026-04-06,2026-11-30,4,585000,Recurrente
+C0417,Bucaramanga,Santander,whatsapp,2026-05-10,2026-06-13,2026-11-18,7,1180000,Frecuente
+C0418,Lebrija,Santander,web,2025-09-30,2025-12-05,2026-11-01,9,2425000,Frecuente
+C0419,Bucaramanga,Santander,whatsapp,2025-05-07,2026-07-31,2026-07-31,1,390000,Nuevo
+C0420,Girón,Santander,web,2025-10-23,2026-05-30,2026-11-06,2,205000,Recurrente
+C0421,Lebrija,Santander,whatsapp,2025-07-15,,,0,0,Sin compras
+C0422,Medellín,Antioquia,web,2026-08-07,2026-08-31,2026-11-15,3,795000,Recurrente
+C0423,Floridablanca,Santander,web,2025-11-24,2026-06-21,2026-10-17,3,255000,Recurrente
+C0424,Piedecuesta,Santander,web,2025-05-02,2026-01-08,2026-11-11,7,1880000,Frecuente
+C0425,Bucaramanga,Santander,whatsapp,2025-08-17,2026-04-19,2026-08-01,4,1180000,Recurrente
+C0426,Piedecuesta,Santander,web,2025-02-08,2025-12-29,2026-01-06,2,410000,Recurrente
+C0427,Piedecuesta,Santander,whatsapp,2026-03-16,2026-03-26,2026-10-24,7,1335000,Frecuente
+C0428,Lebrija,Santander,whatsapp,2025-01-19,2026-07-08,2026-11-07,4,455000,Recurrente
+C0429,Lebrija,Santander,whatsapp,2026-04-29,2026-05-01,2026-11-20,9,2180000,Frecuente
+C0430,Bucaramanga,Santander,whatsapp,2025-01-01,2026-03-19,2026-11-15,2,790000,Recurrente
+C0431,Bucaramanga,Santander,whatsapp,2025-12-13,2025-12-21,2026-11-27,48,6570000,Frecuente
+C0432,Girón,Santander,web,2025-10-26,2026-07-11,2026-07-11,1,75000,Nuevo
+C0433,Bogotá,Bogotá D.C.,web,2025-06-10,2026-02-09,2026-10-01,6,830000,Frecuente
+C0434,Medellín,Antioquia,web,2025-10-31,2025-12-05,2026-09-09,5,585000,Frecuente
+C0435,Floridablanca,Santander,web,2025-05-11,2026-01-02,2026-10-29,8,4880000,Frecuente
+C0436,San Gil,Santander,whatsapp,2025-06-18,2026-01-09,2026-09-29,6,1555000,Frecuente
+C0437,Girón,Santander,whatsapp,2025-11-21,2025-12-24,2026-11-18,4,485000,Recurrente
+C0438,Bucaramanga,Santander,web,2025-05-17,,,0,0,Sin compras
+C0439,Bucaramanga,Santander,web,2026-11-25,,,0,0,Sin compras
+C0440,Bucaramanga,Santander,web,2025-09-04,2026-01-23,2026-10-24,2,220000,Recurrente
+C0441,San Gil,Santander,web,2025-02-02,2026-04-18,2026-10-20,4,540000,Recurrente
+C0442,Bucaramanga,Santander,web,2025-11-30,2026-06-29,2026-11-11,3,425000,Recurrente
+C0443,Piedecuesta,Santander,whatsapp,2025-12-02,,,0,0,Sin compras
+C0444,Lebrija,Santander,web,2025-09-18,2025-12-11,2026-10-14,11,2840000,Frecuente
+C0445,Lebrija,Santander,whatsapp,2025-02-17,2026-05-23,2026-08-05,2,235000,Recurrente
+C0446,Lebrija,Santander,whatsapp,2024-12-27,2026-08-22,2026-08-22,1,270000,Nuevo
+C0447,Bogotá,Bogotá D.C.,web,2025-05-30,2025-12-19,2026-10-26,10,1855000,Frecuente
+C0448,San Gil,Santander,whatsapp,2025-02-27,2026-02-05,2026-11-27,5,1040000,Frecuente
+C0449,Lebrija,Santander,web,2025-01-11,2026-03-24,2026-06-24,2,300000,Recurrente
+C0450,Girón,Santander,web,2025-09-18,2025-12-04,2026-11-15,18,2205000,Frecuente
+C0451,Lebrija,Santander,whatsapp,2025-05-06,2026-03-25,2026-03-25,1,75000,Nuevo
+C0452,Piedecuesta,Santander,web,2024-12-27,2026-06-08,2026-09-02,2,705000,Recurrente
+C0453,Lebrija,Santander,whatsapp,2025-02-06,2026-05-24,2026-09-21,3,255000,Recurrente
+C0454,Floridablanca,Santander,web,2026-07-31,,,0,0,Sin compras
+C0455,Lebrija,Santander,web,2025-04-03,,,0,0,Sin compras
+C0456,Bucaramanga,Santander,web,2026-07-17,,,0,0,Sin compras
+C0457,Lebrija,Santander,whatsapp,2025-09-10,2026-02-07,2026-11-23,9,1200000,Frecuente
+C0458,Bucaramanga,Santander,web,2025-11-25,2026-01-19,2026-10-02,7,4955000,Frecuente
+C0459,Lebrija,Santander,web,2025-03-25,2025-12-10,2026-09-29,3,460000,Recurrente
+C0460,Girón,Santander,web,2025-10-09,2026-01-21,2026-03-19,2,2045000,Recurrente

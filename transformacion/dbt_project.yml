@@ -1,0 +1,25 @@
+name: visag_ventas
+version: "1.0.0"
+config-version: 2
+profile: visag_ventas
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  visag_ventas:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+    reportes:
+      +materialized: table
+
+seeds:
+  visag_ventas:
+    ciudades:
+      +column_types:
+        clave: varchar
+        ciudad: varchar
+        departamento: varchar

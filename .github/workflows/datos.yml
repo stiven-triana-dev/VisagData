@@ -1,0 +1,31 @@
+name: Datos
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+      - name: Estilo (ruff)
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Pruebas del generador y del exportador (pytest)
+        run: pytest
+      - name: Generar datos de ejemplo
+        run: python datos/generar_datos.py
+      - name: Transformar y probar la calidad de los datos (dbt build)
+        run: dbt build --project-dir transformacion --profiles-dir transformacion
+      - name: Exportar para Power BI y comprobar que coincide con lo publicado
+        run: |
+          python exportar.py
+          git diff --exit-code -- powerbi/datos

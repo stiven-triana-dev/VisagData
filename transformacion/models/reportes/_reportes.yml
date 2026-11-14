@@ -1,0 +1,35 @@
+version: 2
+models:
+  - name: ventas_mensuales
+    description: "Pedidos, unidades, ingresos, ticket promedio y crecimiento frente al mes anterior."
+    columns:
+      - name: mes
+        data_tests: [unique, not_null]
+  - name: ventas_categoria_mes
+  - name: productos_top
+    description: "Los 20 productos que más ingresos generaron."
+    columns:
+      - name: puesto
+        data_tests: [unique]
+  - name: ventas_por_ciudad
+    columns:
+      - name: ciudad
+        data_tests: [unique, not_null]
+  - name: ventas_por_talla
+  - name: pedidos_por_estado
+
+unit_tests:
+  - name: crecimiento_mensual_se_calcula_contra_el_mes_anterior
+    description: "Ene: 100.000 en 2 pedidos; Feb: 150.000 en 1 pedido → crecimiento 50 %, ticket 50.000 y 150.000. Los cancelados no cuentan."
+    model: ventas_mensuales
+    given:
+      - input: ref('fct_ventas')
+        rows:
+          - {mes: 2026-01-01, pedido_id: VS-1, cliente_id: C1, cantidad: 1, ingreso: 60000, es_venta: true}
+          - {mes: 2026-01-01, pedido_id: VS-2, cliente_id: C2, cantidad: 1, ingreso: 40000, es_venta: true}
+          - {mes: 2026-01-01, pedido_id: VS-3, cliente_id: C3, cantidad: 9, ingreso: 900000, es_venta: false}
+          - {mes: 2026-02-01, pedido_id: VS-4, cliente_id: C1, cantidad: 2, ingreso: 150000, es_venta: true}
+    expect:
+      rows:
+        - {mes: 2026-01-01, pedidos: 2, unidades: 2, ingresos: 100000, clientes: 2, ticket_promedio: 50000, crecimiento_pct: null}
+        - {mes: 2026-02-01, pedidos: 1, unidades: 2, ingresos: 150000, clientes: 1, ticket_promedio: 150000, crecimiento_pct: 50.0}

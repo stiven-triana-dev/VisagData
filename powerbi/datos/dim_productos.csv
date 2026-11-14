@@ -1,0 +1,109 @@
+﻿producto_id,producto,categoria,precio,numero_tallas,unidades_vendidas,ingresos
+p001,Gorra curva · Negra 01,Gorras,45000,1,30,1350000
+p002,Gorra curva · Negra y roja 01,Gorras,45000,1,76,3420000
+p003,Gorra curva · Negra 02,Gorras,45000,1,54,2430000
+p004,Gorra curva · Gris oscuro,Gorras,45000,1,17,765000
+p005,Gorra curva · Negra y roja 02,Gorras,45000,1,43,1935000
+p006,Gorra curva · Negra 03,Gorras,45000,1,50,2250000
+p007,Gorra curva · Negra y celeste,Gorras,45000,1,37,1665000
+p008,Gorra curva · Blanca y negra 01,Gorras,45000,1,45,2025000
+p009,Gorra curva · Roja y negra,Gorras,45000,1,68,3060000
+p010,Gorra curva · Blanca y negra 02,Gorras,45000,1,13,585000
+p011,Gorra curva · Roja,Gorras,45000,1,85,3825000
+p012,Gorra curva 1.1 · Roja,Gorras,60000,1,58,3480000
+p013,Gorra curva 1.1 · Negra 01,Gorras,60000,1,38,2280000
+p014,Gorra curva 1.1 · Negra y roja 01,Gorras,60000,1,57,3420000
+p015,Gorra curva 1.1 · Blanca y roja 01,Gorras,60000,1,67,4020000
+p016,Gorra curva 1.1 · Blanca y roja 02,Gorras,60000,1,65,3900000
+p017,"Gorra curva 1.1 · Azul, blanca y roja",Gorras,60000,1,59,3540000
+p018,Gorra curva 1.1 · Negra 02,Gorras,60000,1,90,5400000
+p019,Gorra curva 1.1 · Negra 03,Gorras,60000,1,46,2760000
+p020,Gorra curva 1.1 · Negra y roja 02,Gorras,60000,1,12,720000
+p021,Gorra curva 1.1 · Negra y blanca,Gorras,60000,1,68,4080000
+p022,Gorra plana · Blanca y azul,Gorras,55000,1,34,1870000
+p023,Gorra plana · Negra,Gorras,55000,1,131,7205000
+p024,Gorra plana · Negra y roja,Gorras,55000,1,57,3135000
+p025,Gorra cerrada · Blanca y azul 01,Gorras,75000,1,72,5400000
+p026,Gorra cerrada · Azul oscuro,Gorras,75000,1,56,4200000
+p027,Gorra cerrada · Negra y rosa,Gorras,75000,1,79,5925000
+p028,Gorra cerrada · Negra y naranja,Gorras,75000,1,92,6900000
+p029,Gorra cerrada · Negra 01,Gorras,75000,1,68,5100000
+p030,Gorra cerrada · Negra 02,Gorras,75000,1,106,7950000
+p031,Gorra cerrada · Negra y roja,Gorras,75000,1,112,8400000
+p032,Gorra cerrada · Crema y negra 01,Gorras,75000,1,46,3450000
+p033,Gorra cerrada · Negra y celeste,Gorras,75000,1,61,4575000
+p034,Gorra cerrada · Café y azul,Gorras,75000,1,32,2400000
+p035,Gorra cerrada · Negra 03,Gorras,75000,1,81,6075000
+p036,Gorra cerrada · Crema y negra 02,Gorras,75000,1,88,6600000
+p037,Gorra cerrada · Negra 04,Gorras,75000,1,87,6525000
+p038,Gorra cerrada · Negra y amarilla,Gorras,75000,1,63,4725000
+p039,Gorra cerrada · Negra 05,Gorras,75000,1,79,5925000
+p040,Gorra cerrada · Negra 06,Gorras,75000,1,99,7425000
+p041,Gorra cerrada · Blanca y azul 02,Gorras,75000,1,70,5250000
+p042,Jean baggy · Negro,Pantalones,130000,5,16,2080000
+p043,Jean baggy · Negro con costuras,Pantalones,130000,3,55,7150000
+p044,Jean baggy · Gris lavado,Pantalones,130000,2,72,9360000
+p045,Jean baggy · Verde lavado,Pantalones,130000,1,47,6110000
+p046,Jean baggy · Azul claro,Pantalones,130000,2,74,9620000
+p047,Jean baggy · Azul roto,Pantalones,130000,3,53,6890000
+p048,Jean baggy · Gris oscuro,Pantalones,130000,3,23,2990000
+p049,Jean baggy · Azul turquesa,Pantalones,130000,3,49,6370000
+p050,Jean baggy · Negro lavado,Pantalones,130000,3,43,5590000
+p051,Jean baggy · Azul medio,Pantalones,130000,2,68,8840000
+p052,Jean baggy · Café lavado,Pantalones,130000,2,31,4030000
+p053,Jean baggy · Verde oscuro,Pantalones,130000,1,66,8580000
+p054,Jean cargo · Gris con bolsillos,Pantalones,140000,1,53,7420000
+p055,Jean 1.1 · Azul roto 01,Pantalones,160000,1,57,9120000
+p056,Jean 1.1 · Azul con estampado 01,Pantalones,175000,1,31,5425000
+p057,Jean 1.1 · Azul roto 02,Pantalones,160000,1,67,10720000
+p058,Jean 1.1 · Azul con estampado 02,Pantalones,175000,1,27,4725000
+p059,Pantaloneta algodón · Negra con franjas 01,Pantalonetas,40000,1,60,2400000
+p060,Pantaloneta algodón · Negra con franjas 02,Pantalonetas,40000,1,47,1880000
+p061,Pantaloneta algodón · Negra con franjas 03,Pantalonetas,40000,1,21,840000
+p062,Bermuda jean · Azul con tachas,Bermudas,95000,1,20,1900000
+p063,Bermuda jean · Negra con parches,Bermudas,95000,1,43,4085000
+p064,Bermuda jean · Negra con brillos,Bermudas,95000,1,26,2470000
+p065,Bermuda jean · Negra con strass,Bermudas,95000,1,7,665000
+p066,Bermuda jean · Azul rota,Bermudas,85000,1,6,510000
+p067,Bermuda jean · Azul con estampado,Bermudas,95000,1,26,2470000
+p068,Bermuda jean · Azul con brillos,Bermudas,95000,1,14,1330000
+p069,Pantaloneta NBA · Negra 01,Pantalonetas,70000,1,50,3500000
+p070,Pantaloneta NBA · Negra y roja 01,Pantalonetas,70000,1,36,2520000
+p071,Pantaloneta NBA · Negra 02,Pantalonetas,70000,1,11,770000
+p072,Pantaloneta NBA · Negra 03,Pantalonetas,70000,2,48,3360000
+p073,"Pantaloneta NBA · Negra, gris y roja",Pantalonetas,70000,1,13,910000
+p074,Pantaloneta NBA · Negra y roja 02,Pantalonetas,70000,2,103,7210000
+p075,Pantaloneta NBA · Blanca estampada,Pantalonetas,70000,1,35,2450000
+p076,Pantaloneta NBA · Negra 04,Pantalonetas,70000,1,10,700000
+p077,Pantaloneta NBA · Negra 05,Pantalonetas,70000,2,30,2100000
+p078,Pantaloneta NBA · Negra 06,Pantalonetas,70000,1,73,5110000
+p079,Pantaloneta NBA · Azul oscuro estampada,Pantalonetas,70000,1,45,3150000
+p080,Pantaloneta NBA · Roja,Pantalonetas,70000,1,27,1890000
+p081,Pantaloneta NBA · Azul tie-dye,Pantalonetas,70000,1,40,2800000
+p082,Pantaloneta NBA · Negra 07,Pantalonetas,70000,1,55,3850000
+p083,Pantaloneta NBA · Negra y roja 03,Pantalonetas,70000,1,34,2380000
+p084,Pantaloneta NBA · Celeste,Pantalonetas,70000,1,34,2380000
+p085,Pantaloneta NBA · Azul marino,Pantalonetas,70000,1,15,1050000
+p086,Pantaloneta NBA · Negra y gris,Pantalonetas,70000,1,61,4270000
+p087,Pantaloneta NBA · Negra 08,Pantalonetas,70000,1,25,1750000
+p088,Pantaloneta NBA · Verde agua estampada,Pantalonetas,70000,1,18,1260000
+p089,Sudadera 1.1 · Negra con diseño rojo 01,Sudaderas,120000,1,41,4920000
+p090,Sudadera 1.1 · Negra con diseño rojo 02,Sudaderas,120000,1,41,4920000
+p091,Sudadera algodón · Roja,Sudaderas,85000,3,57,4845000
+p092,Sudadera algodón · Negra con franjas,Sudaderas,85000,3,25,2125000
+p093,Sudadera algodón · Negra con ribete 01,Sudaderas,85000,3,22,1870000
+p094,Sudadera algodón · Blanca y negra,Sudaderas,85000,3,13,1105000
+p095,Sudadera algodón · Gris,Sudaderas,85000,3,29,2465000
+p096,Sudadera algodón · Negra,Sudaderas,85000,3,19,1615000
+p097,Sudadera algodón · Negra con ribete 02,Sudaderas,85000,3,13,1105000
+p098,Adidas · Negro y blanco,Zapatos,220000,0,42,9240000
+p099,Jordan · Gris y blanco,Zapatos,280000,0,17,4760000
+p100,Jordan · Blanco,Zapatos,280000,0,22,6160000
+p101,Jordan · Negro,Zapatos,280000,0,26,7280000
+p102,New Balance · Gris y blanco,Zapatos,250000,0,20,5000000
+p103,Nike · Negro,Zapatos,230000,0,47,10810000
+p104,Nike · Verde y blanco,Zapatos,230000,0,3,690000
+p105,Nike · Blanco 01,Zapatos,230000,0,19,4370000
+p106,Nike · Blanco 02,Zapatos,230000,0,12,2760000
+p107,Nike · Café y blanco,Zapatos,230000,0,29,6670000
+p108,Nike · Gris y negro,Zapatos,230000,0,13,2990000

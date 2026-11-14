@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: crudos
+    description: "CSV generados por datos/generar_datos.py (ventas de ejemplo; catálogo real de VisagShop)."
+    meta:
+      external_location: "read_csv('datos/crudos/{name}.csv', header = true, auto_detect = true)"
+    tables:
+      - name: productos
+      - name: clientes
+      - name: pedidos
+      - name: items_pedido

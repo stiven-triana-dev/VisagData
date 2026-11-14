@@ -1,0 +1,7 @@
+version: 2
+seeds:
+  - name: ciudades
+    description: "Diccionario para unificar cómo se escriben las ciudades (clave = texto en minúsculas y sin tildes)."
+    columns:
+      - name: clave
+        data_tests: [unique, not_null]

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+# Se regeneran: datos crudos, base DuckDB y artefactos de dbt
+datos/crudos/
+*.duckdb
+*.duckdb.wal
+transformacion/target/
+transformacion/logs/
+transformacion/dbt_packages/
+logs/

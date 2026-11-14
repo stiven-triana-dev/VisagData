@@ -1,0 +1,28 @@
+version: 2
+models:
+  - name: fct_ventas
+    description: "Hechos de venta: una fila por producto de cada pedido. es_venta = no cancelado."
+    data_tests:
+      - unique_combinacion:
+          arguments:
+            columnas: ["pedido_id", "producto_id"]
+    columns:
+      - name: ingreso
+        data_tests: [not_null, mayor_que_cero]
+      - name: ciudad
+        data_tests: [not_null]
+      - name: categoria
+        data_tests: [not_null]
+  - name: dim_productos
+    columns:
+      - name: producto_id
+        data_tests: [unique, not_null]
+  - name: dim_clientes
+    columns:
+      - name: cliente_id
+        data_tests: [unique, not_null]
+      - name: segmento
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Sin compras", "Nuevo", "Recurrente", "Frecuente"]

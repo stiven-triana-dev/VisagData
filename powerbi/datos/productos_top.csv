@@ -1,0 +1,21 @@
+﻿puesto,producto_id,producto,categoria,precio,unidades_vendidas,ingresos
+1,p103,Nike · Negro,Zapatos,230000,47,10810000
+2,p057,Jean 1.1 · Azul roto 02,Pantalones,160000,67,10720000
+3,p046,Jean baggy · Azul claro,Pantalones,130000,74,9620000
+4,p044,Jean baggy · Gris lavado,Pantalones,130000,72,9360000
+5,p098,Adidas · Negro y blanco,Zapatos,220000,42,9240000
+6,p055,Jean 1.1 · Azul roto 01,Pantalones,160000,57,9120000
+7,p051,Jean baggy · Azul medio,Pantalones,130000,68,8840000
+8,p053,Jean baggy · Verde oscuro,Pantalones,130000,66,8580000
+9,p031,Gorra cerrada · Negra y roja,Gorras,75000,112,8400000
+10,p030,Gorra cerrada · Negra 02,Gorras,75000,106,7950000
+11,p040,Gorra cerrada · Negra 06,Gorras,75000,99,7425000
+12,p054,Jean cargo · Gris con bolsillos,Pantalones,140000,53,7420000
+13,p101,Jordan · Negro,Zapatos,280000,26,7280000
+14,p074,Pantaloneta NBA · Negra y roja 02,Pantalonetas,70000,103,7210000
+15,p023,Gorra plana · Negra,Gorras,55000,131,7205000
+16,p043,Jean baggy · Negro con costuras,Pantalones,130000,55,7150000
+17,p028,Gorra cerrada · Negra y naranja,Gorras,75000,92,6900000
+18,p047,Jean baggy · Azul roto,Pantalones,130000,53,6890000
+19,p107,Nike · Café y blanco,Zapatos,230000,29,6670000
+20,p036,Gorra cerrada · Crema y negra 02,Gorras,75000,88,6600000
