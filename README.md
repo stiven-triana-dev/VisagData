@@ -14,6 +14,23 @@ automatizado y probado.
 > tallas), pero los clientes y los pedidos son **ficticios**, generados con una semilla fija: los clientes
 > solo tienen un código y una ciudad, sin nombres, teléfonos ni direcciones.
 
+## 📊 El tablero (Power BI)
+
+![Tablero de ventas de VisagShop en Power BI](powerbi/tablero.png)
+
+Archivo: [`powerbi/VisagData_tablero.pbix`](powerbi/VisagData_tablero.pbix) (se abre con Power BI Desktop, gratis).
+
+- **Modelo estrella:** `fct_ventas` en el centro, relacionada con `dim_productos` y `dim_clientes` (varios a uno).
+- **Medidas en DAX:** `Ventas`, `Pedidos`, `Unidades` (sin pedidos cancelados), `Ticket promedio` y `% Cancelación`.
+- **Gráficos:** tarjetas de indicadores, ventas por mes, por categoría, top 10 de productos (filtro *N superior*) y por ciudad.
+- **Interactivo:** el filtro de categoría de abajo actualiza todo el tablero.
+- Las cifras del tablero cuadran con las calculadas por dbt ($438,6 millones en 1.982 pedidos, 10,1 % de cancelación).
+
+```
+Ventas          = CALCULATE(SUM(fct_ventas[ingreso]), fct_ventas[estado] <> "cancelado")
+Ticket promedio = DIVIDE([Ventas], [Pedidos])
+```
+
 ## 🔄 Cómo fluyen los datos
 
 ```mermaid

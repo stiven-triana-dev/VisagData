@@ -11,3 +11,6 @@ transformacion/target/
 transformacion/logs/
 transformacion/dbt_packages/
 logs/
+
+# Copia temporal guardada por error dentro de datos/ (la buena está en powerbi/)
+powerbi/datos/*.pbix
