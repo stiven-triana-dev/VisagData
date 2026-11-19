@@ -1,5 +1,3 @@
--- La ciudad llega escrita de muchas formas ("bogota", " BOGOTÁ", "B/manga"...):
--- se normaliza (minúsculas, sin tildes ni espacios sobrantes) y se cruza con el diccionario.
 with clientes as (
     select
         cliente_id,

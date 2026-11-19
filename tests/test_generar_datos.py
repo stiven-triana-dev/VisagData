@@ -1,5 +1,3 @@
-"""Pruebas del generador de datos de ejemplo."""
-
 from datetime import date, datetime
 
 from datos.generar_datos import FIN, INICIO, cargar_catalogo, generar

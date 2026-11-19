@@ -1,5 +1,3 @@
-{# Pruebas genéricas propias (sin depender de paquetes externos). #}
-
 {% test mayor_que_cero(model, column_name) %}
 select * from {{ model }} where {{ column_name }} <= 0
 {% endtest %}

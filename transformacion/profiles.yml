@@ -1,5 +1,3 @@
-# Base local DuckDB (un archivo, sin servidor). Las rutas son relativas a la raíz del repositorio,
-# desde donde se corre dbt (ver README).
 visag_ventas:
   target: local
   outputs:

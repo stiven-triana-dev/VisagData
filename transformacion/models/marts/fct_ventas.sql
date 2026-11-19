@@ -1,4 +1,3 @@
--- Una fila por producto vendido en un pedido. Es la tabla central del modelo estrella.
 select
     i.pedido_id,
     p.fecha_pedido,

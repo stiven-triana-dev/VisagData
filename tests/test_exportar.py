@@ -1,5 +1,3 @@
-"""El exportador escribe CSV legibles por Power BI (UTF-8 con BOM, vacío para nulos)."""
-
 from pathlib import Path
 
 import duckdb
