@@ -1,16 +1,3 @@
-"""Genera ventas DE EJEMPLO de VisagShop para el proyecto de análisis.
-
-Usa el catálogo real (datos/catalogo.json: productos, categorías, precios y tallas), pero los
-clientes y los pedidos son FICTICIOS: los clientes solo tienen un código y una ciudad (ningún
-nombre, teléfono ni dirección). La semilla fija hace que siempre salgan los mismos datos.
-
-A propósito, una parte de los datos viene "sucia" (ciudades con mayúsculas, espacios o sin
-tildes; métodos de pago escritos distinto), como pasa con datos reales: la capa de staging
-de dbt los limpia y las pruebas lo verifican.
-
-Uso:  python datos/generar_datos.py            (escribe datos/crudos/*.csv)
-"""
-
 from __future__ import annotations
 
 import csv
@@ -24,9 +11,8 @@ RAIZ = Path(__file__).resolve().parent
 SALIDA = RAIZ / "crudos"
 SEMILLA = 2026
 INICIO = date(2025, 12, 1)
-FIN = date(2026, 11, 30)  # 12 meses completos
+FIN = date(2026, 11, 30)
 
-# Ciudades y peso relativo (la tienda está en Lebrija, Santander).
 CIUDADES = {
     "Lebrija": 30,
     "Bucaramanga": 24,
@@ -39,7 +25,6 @@ CIUDADES = {
     "Cúcuta": 3,
     "Barranquilla": 2,
 }
-# Cómo se ven escritas "a mano" algunas ciudades (datos sucios a propósito).
 VARIANTES_SUCIAS = {
     "Bogotá": ["bogota", "Bogota D.C.", " BOGOTÁ"],
     "Bucaramanga": ["bucaramanga", "B/manga", "Bucaramanga "],
@@ -52,11 +37,9 @@ VARIANTES_SUCIAS = {
 METODOS_PAGO = {"Contraentrega": 50, "Nequi": 35, "Tarjeta (enlace)": 15}
 METODOS_SUCIOS = {"Contraentrega": ["contraentrega", "Contra entrega"], "Nequi": ["NEQUI", "nequi"]}
 
-# Temporadas en Colombia: diciembre y prima de mitad de año, Amor y Amistad, Black Friday.
 TEMPORADA = {12: 1.8, 1: 0.7, 2: 0.8, 3: 0.9, 4: 0.9, 5: 1.1, 6: 1.25, 7: 1.0, 8: 0.9, 9: 1.1, 10: 1.0, 11: 1.35}
 PEDIDOS_POR_DIA = 5.0
 CRECIMIENTO_MENSUAL = 0.03
-# Popularidad relativa por categoría.
 POPULARIDAD = {"Gorras": 3.0, "Pantalones": 2.2, "Pantalonetas": 1.6, "Bermudas": 1.2, "Sudaderas": 1.3, "Zapatos": 1.0}
 
 
@@ -93,11 +76,9 @@ def generar(semilla: int = SEMILLA) -> dict[str, list[dict[str, object]]]:
     catalogo = cargar_catalogo()
     pesos_producto = [POPULARIDAD.get(p.categoria, 1.0) * azar.uniform(0.4, 1.6) for p in catalogo]
 
-    # ---- clientes (ficticios: solo código y ciudad)
     clientes: list[dict[str, object]] = []
     for n in range(1, 461):
         ciudad = _elegir(azar, CIUDADES)
-        # 70 % ya eran clientes antes del periodo; el resto llega a lo largo del año.
         if azar.random() < 0.7:
             registro = INICIO - timedelta(days=azar.randint(1, 365))
         else:
@@ -110,10 +91,8 @@ def generar(semilla: int = SEMILLA) -> dict[str, list[dict[str, object]]]:
                 "canal_registro": azar.choices(["web", "whatsapp"], weights=[60, 40])[0],
             }
         )
-    # Clientes frecuentes: unos pocos compran mucho más (regla 80/20 aproximada).
     pesos_cliente = [azar.paretovariate(1.6) for _ in clientes]
 
-    # ---- pedidos e items
     pedidos: list[dict[str, object]] = []
     items: list[dict[str, object]] = []
     numero = 1001
@@ -127,7 +106,7 @@ def generar(semilla: int = SEMILLA) -> dict[str, list[dict[str, object]]]:
         for _ in range(max(0, round(azar.gauss(esperado, esperado**0.5)))):
             cliente = azar.choices(clientes, weights=pesos_cliente)[0]
             if str(cliente["fecha_registro"]) > dia.isoformat():
-                continue  # todavía no se había registrado
+                continue
             hora = datetime(dia.year, dia.month, dia.day, azar.choice(range(8, 22)), azar.randint(0, 59))
             por_mayor = azar.random() < 0.08
             antiguedad = (FIN - dia).days

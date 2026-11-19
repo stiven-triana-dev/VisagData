@@ -1,5 +1,3 @@
--- Los cruces del modelo no deben perder ni duplicar ventas: el total de fct_ventas tiene que ser
--- igual al total calculado directamente desde los items de pedidos no cancelados.
 with directo as (
     select sum(i.cantidad * i.precio_unitario) as total
     from {{ ref('stg_items_pedido') }} i

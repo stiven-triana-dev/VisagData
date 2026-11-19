@@ -1,4 +1,3 @@
--- Incluye cancelados: sirve para medir la tasa de cancelación por método de pago.
 select
     metodo_pago,
     count(distinct pedido_id) as pedidos,

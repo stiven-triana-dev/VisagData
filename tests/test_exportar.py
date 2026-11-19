@@ -1,5 +1,3 @@
-"""El exportador escribe CSV legibles por Power BI (UTF-8 con BOM, vacío para nulos)."""
-
 from pathlib import Path
 
 import duckdb
@@ -16,5 +14,5 @@ def test_exporta_cada_tabla_con_tildes_y_nulos_vacios(tmp_path: Path, monkeypatc
 
     assert len(archivos) == len(exportar.TABLAS)
     contenido = archivos[0].read_bytes()
-    assert contenido.startswith(b"\xef\xbb\xbf")  # BOM
+    assert contenido.startswith(b"\xef\xbb\xbf")
     assert contenido.decode("utf-8-sig").splitlines() == ["ciudad,valor,es_venta", "Girón,,true"]

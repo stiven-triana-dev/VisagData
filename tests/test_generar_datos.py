@@ -1,5 +1,3 @@
-"""Pruebas del generador de datos de ejemplo."""
-
 from datetime import date, datetime
 
 from datos.generar_datos import FIN, INICIO, cargar_catalogo, generar
@@ -44,7 +42,7 @@ def test_trae_datos_sucios_a_proposito_para_que_dbt_los_limpie() -> None:
     ciudades = {c["ciudad"] for c in DATOS["clientes"]}
     metodos = {p["metodo_pago"] for p in DATOS["pedidos"]}
     assert any(c != c.strip() or c.islower() for c in map(str, ciudades))
-    assert len(metodos) > 3  # "Nequi", "NEQUI", "nequi"...
+    assert len(metodos) > 3
 
 
 def test_diciembre_vende_mas_que_enero() -> None:

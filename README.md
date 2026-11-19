@@ -91,6 +91,18 @@ pytest                                      # pruebas en Python
 
 La base es un archivo **DuckDB** (`visag_ventas.duckdb`): SQL analítico sin instalar un servidor.
 
+## Lo que aprendí con este proyecto
+
+Hice VisagData para aprender el trabajo de un analista de datos con algo que ya conocía: las ventas de mi tienda. No quise usar datos reales de clientes, así que el catálogo es el real, pero los clientes y los pedidos los genero con Python a partir de una semilla fija. Eso me sirvió de dos formas: no expongo datos personales y los resultados salen iguales cada vez que corro el proyecto.
+
+Los datos los ensucio a propósito, porque en la vida real nunca llegan limpios: la misma ciudad aparece como «bogota», « BOGOTÁ» o «B/manga», y los métodos de pago vienen escritos de varias maneras. Con dbt aprendí a limpiarlos por capas. En staging unifico y corrijo, en marts armo el modelo estrella con una tabla de ventas en el centro, y en reportes dejo las métricas listas. Lo que más me sirvió fueron las pruebas de datos: si mañana aparece una forma nueva de escribir una ciudad, dbt falla y me dice qué agregar al diccionario, en vez de dejar pasar el error en silencio.
+
+La prueba que más me enseñó fue la del cuadre. Al unir tablas es fácil duplicar o perder filas sin darse cuenta, así que comparo el total de ventas del modelo con el total calculado directamente desde los pedidos. Si no coinciden, algo está mal en los cruces.
+
+Usé DuckDB porque me deja hacer SQL analítico sobre un archivo, sin instalar ni pagar un servidor. En Power BI aprendí a montar el modelo estrella con relaciones de varios a uno, a escribir medidas en DAX (ventas, pedidos, ticket promedio y porcentaje de cancelación) y a revisar que las cifras del tablero cuadren con las de dbt.
+
+El problema práctico más grande fue otra vez Windows: el Control de aplicaciones inteligente bloquea el ejecutable `dbt`, y tuve que correrlo desde Python. Para que el resultado sea confiable, los CSV que lee Power BI se exportan siempre en el mismo orden y en UTF-8, para que las tildes se vean bien, y GitHub Actions comprueba en cada cambio que los archivos publicados son exactamente los que produce el proceso.
+
 ## 🛠️ Tecnologías
 
 Python 3.12 · dbt Core 1.12 · DuckDB · SQL · Power BI · pytest · ruff · GitHub Actions

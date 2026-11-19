@@ -1,9 +1,3 @@
-"""Exporta las tablas finales de DuckDB a CSV para Power BI (carpeta powerbi/datos).
-
-Uso (después de `dbt build`):  python exportar.py
-Los CSV van en UTF-8 con BOM para que Power BI y Excel reconozcan las tildes.
-"""
-
 import csv
 from pathlib import Path
 
@@ -13,11 +7,9 @@ RAIZ = Path(__file__).resolve().parent
 BASE = RAIZ / "visag_ventas.duckdb"
 SALIDA = RAIZ / "powerbi" / "datos"
 TABLAS = [
-    # modelo estrella (para relacionar en Power BI)
     "fct_ventas",
     "dim_productos",
     "dim_clientes",
-    # reportes ya calculados
     "ventas_mensuales",
     "ventas_categoria_mes",
     "productos_top",
